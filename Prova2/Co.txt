@@ -1,0 +1,27 @@
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+int main(){
+	int vetA[5],vetB[5];
+	for(int i=0;i<5;i++){
+		cin>>vetA[i];
+	}
+	for(int i=0;i<5;i++){
+		cin>>vetA[i];
+	}
+
+}
+void intercalar(int vetA[],int vetB[],int fimA,int fimB){
+	int *vetC;
+	vetC=(int*)malloc(sizeof(int)*fimA*fimB);
+	int p=0;
+	for(int i=0;i<tamA;i++){
+		vetC[p]=vetA[i];
+		p=p+2;
+	}
+	p=1;
+	for(int i=0;i<tamB;i++){
+		vetC[p]=vetB[i];
+		p=p+2;
+	}	
+}

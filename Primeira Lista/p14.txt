@@ -1,0 +1,35 @@
+14A)Quando a chave 4 é pesquisada no vetor[3,12, 20, 25, 40, 50, 55, 90, 95 e 99],
+a chave é comparada com os seguinte valores da posição do indice do meio,segundo a busca binaria:
+comparacao: 1
+valor do indice meio: 4
+valor na posicao 'meio': 40
+
+comparacao: 2
+valor do indice meio: 1
+valor na posicao 'meio': 12
+
+comparacao: 3
+valor do indice meio: 0
+valor na posicao 'meio': 3
+
+Com retorno Elemento não encontrado: -1.
+
+14B)Quando a chave 55 é pesquisada no vetor[3,12, 20, 25, 40, 50, 55, 90, 95 e 99],
+a chave é comparada com os seguinte valores da posição do indice do meio,segundo a busca binaria:
+comparacao: 1
+valor do indice meio: 4
+valor na posicao 'meio': 40
+
+comparacao: 2
+valor do indice meio: 7
+valor na posicao 'meio': 90
+
+comparacao: 3
+valor do indice meio: 5
+valor na posicao 'meio': 50
+
+comparacao: 4
+valor do indice meio: 6
+valor na posicao 'meio': 55
+
+Com retorno do indice: 6.
